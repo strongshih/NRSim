@@ -1,0 +1,30 @@
+{
+    "functions_to_trace": [
+      "nerfstudio.cameras.rays.RaySamples.get_weights",
+      "nerfstudio.cameras.rays.RayBundle.get_ray_samples",
+      "nerfstudio.cameras.rays.Frustums.get_positions",
+      "nerfstudio.model_components.ray_samplers.PDFSampler.generate_ray_samples",
+      "nerfstudio.model_components.ray_samplers.UniformSampler.generate_ray_samples",
+      "nerfstudio.field_components.encodings.RFFEncoding.forward",
+      "nerfstudio.field_components.mlp.MLP.forward",
+      "nerfstudio.field_components.field_heads.DensityFieldHead.forward",
+      "nerfstudio.field_components.field_heads.RGBFieldHead.forward",
+      "nerfstudio.field_components.mlp.MLPWithHashEncoding.forward",
+      "nerfstudio.field_components.encodings.NeRFEncoding.forward",
+      "nerfstudio.field_components.encodings.FFEncoding.forward",
+      "nerfstudio.field_components.encodings.RFFEncoding.forward",
+      "nerfstudio.field_components.encodings.HashEncoding.forward",
+      "nerfstudio.field_components.encodings.NeRFEncoding.forward",
+      "nerfstudio.model_components.ray_samplers.PDFSampler.forward",
+      "nerfstudio.model_components.ray_samplers.UniformSampler.forward",
+      "nerfstudio.model_components.renderers.RGBRenderer.forward",
+      "nerfstudio.model_components.renderers.RGBRenderer.forward",
+      "nerfstudio.model_components.renderers.DepthRenderer.forward",
+      "nerfstudio.model_components.renderers.UncertaintyRenderer.forward",
+      "nerfstudio.model_components.renderers.SemanticRenderer.forward",
+      "nerfstudio.model_components.renderers.NormalsRenderer.forward",
+      "nerfstudio.models.instant_ngp.NGPModel.get_outputs",
+      "nerfstudio.models.vanilla_nerf.NeRFModel.get_outputs",
+      "nerfstudio.models.splatfacto.SplatFactoModel.get_outputs"
+    ]
+}
